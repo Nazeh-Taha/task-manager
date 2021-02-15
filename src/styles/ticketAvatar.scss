@@ -1,0 +1,33 @@
+.ticketAvatarContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+
+    div {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        vertical-align: middle;
+        background-color: #ededed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #adadad;
+        font-size: 23px;
+        font-weight: 600;
+    }
+
+    span {
+        display: block;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #63ddd8;
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
+        border: 2px solid #fff;
+    }
+}

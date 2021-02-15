@@ -1,0 +1,29 @@
+.LeftPanelContainer{
+    width: 120px;
+    min-height: 100vh;
+    background-color: #fff;
+    border: 2px solid;
+    border-image-slice: 1;
+    border-width: 2px;
+    border-image-source: linear-gradient(to right top, #a96bd1, #9a6dd4, #896fd7, #7770d9, #6272da, #4d7ee2, #3389e7, #0093eb, #00a8ef, #00bbea, #00ccde, #2bdacf);
+    padding: 25px;
+    box-sizing: border-box;
+    .userAvatarContainer{
+        padding-bottom: 20px;
+    }
+    .userTicketContainer{
+        padding: 20px 0;
+        border-bottom: 2px solid #ededed;
+        div{
+            margin: 10px 0;
+        }
+    }
+
+    .snoozeTicketContainer{
+        padding: 20px 0;
+        div{
+            margin: 10px 0;
+        }
+    }
+
+}

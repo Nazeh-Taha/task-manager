@@ -1,0 +1,1 @@
+export const options = ['Buy a product', 'Cancel an account', 'Buy and Recommend a gift', 'Ask for the business'];

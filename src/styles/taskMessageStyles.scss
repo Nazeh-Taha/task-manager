@@ -1,0 +1,85 @@
+.task-message-container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 25px;
+    color: #adadad;
+    font-weight: 600;
+
+    .task-message__body {
+        padding: 50px 50px 0 50px;
+
+        .task-message--header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 5vh;
+
+            .task-message--icons {
+                display: flex;
+                align-items: flex-end;
+                justify-content: space-between;
+                width: 20%;
+
+                div {
+                    cursor: pointer;
+                    padding-left: 10px;
+                }
+            }
+        }
+
+        .task-message--messages {
+            padding: 20px 10px;
+
+            div {
+                max-width: 70%;
+                background-color: #ededed;
+                border-radius: 30px 30px 30px 0;
+                padding: 30px;
+                font-size: 18px;
+                color: #4d4e4f;
+            }
+
+            p {
+                padding: 10px;
+                font-size: 15px;
+
+                span {
+                    height: 11px;
+                    width: 11px;
+                    border-radius: 50%;
+                    background-color: #63ddd8;
+                    display: inline-block;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+
+    .task-message__input {
+        input {
+            width: 100%;
+            border: none;
+            border-top: 2px solid #ededed;
+            padding: 10px 30px;
+            box-sizing: border-box;
+            outline: none;
+            font-size: 17px;
+            transition: 1s;
+        }
+        input::-webkit-input-placeholder {
+            /* Edge */
+            color: #979595;
+        }
+    
+        input:-ms-input-placeholder {
+            /* Internet Explorer 10-11 */
+            color: #979595;
+        }
+    
+        input::placeholder {
+            color: #979595;
+        }
+    }
+}

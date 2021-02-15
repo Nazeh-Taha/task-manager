@@ -1,0 +1,36 @@
+$small: 900px;
+
+.ticketSystem-container {
+    display: flex;
+
+    .ticketSystem-container__body {
+        width: calc(100% - 120px);
+        float: right;
+        display: flex;
+        flex-wrap: wrap;
+
+        .classify-container {
+            width: 40%;
+            box-sizing: border-box;
+        }
+
+        .task-message-container {
+            width: 60%;
+            box-sizing: border-box;
+        }
+
+        @media screen and (max-width: $small) {
+            .classify-container {
+                width: 100%;
+                box-sizing: border-box;
+            }
+
+            .task-message-container {
+                width: 100%;
+                box-sizing: border-box;
+            }
+        }
+    }
+
+
+}

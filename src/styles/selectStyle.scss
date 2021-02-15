@@ -1,0 +1,27 @@
+.select-container {
+    display: flex;
+    align-items: center;
+
+    select {
+        background: #ededed;
+        border: none;
+        font-size: 17px;
+        color: #4d4e4f;
+        font-weight: 600;
+        letter-spacing: 1px;
+        outline: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        width: 50%;
+    }
+
+    /* Hide arrow icon in IE browsers */
+    select::-ms-expand {
+        display: none;
+    }
+
+    svg {
+        font-size: 20px;
+        display: block;
+    }
+}
